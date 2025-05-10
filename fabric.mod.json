@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "orthomovementmod",
+  "version": "1.0.0",
+  "name": "Ortho Movement Mod",
+  "description": "Move relative to the world axes instead of player facing.",
+  "authors": ["YourName"],
+  "entrypoints": {
+    "client": ["fabric.CardinalMovementMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.5"
+  }
+}
